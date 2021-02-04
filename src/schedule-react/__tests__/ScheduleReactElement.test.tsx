@@ -1,28 +1,28 @@
 /** @jsx ScheduleReact.createElement */
 
-let ScheduleReact:any
-let originalSymbol:any
-let ComponentClass:any
+let ScheduleReact: any;
+let originalSymbol: any;
+let ComponentClass: any;
 
-beforeEach(()=>{
+beforeEach(() => {
   originalSymbol = global.Symbol;
   (global as any).Symbol = undefined;
 
-  ScheduleReact=require('../ScheduleReact')
+  ScheduleReact = require('../ScheduleReact');
 
   ComponentClass = class extends ScheduleReact.Component {
     render() {
       return ScheduleReact.createElement('div');
     }
   };
-})
+});
 
-afterEach(()=>{
-  global.Symbol=originalSymbol
-})
+afterEach(() => {
+  global.Symbol = originalSymbol;
+});
 
 test('uses the fallback value when in an environment without Symbol', () => {
-  expect((<div /> as any).$$typeof).toBe(0xeac7);
+  expect(((<div />) as any).$$typeof).toBe(0xeac7);
 });
 
 test('returns a complete element according to spec', () => {
@@ -61,8 +61,8 @@ test('returns a complete element according to spec', () => {
 
 test('should warn when `key` is being accessed on a host element', () => {
   const element = <div key="3" />;
-  expect(element.props).not.toHaveProperty('key')
-  expect(element).toHaveProperty('key')
+  expect(element.props).not.toHaveProperty('key');
+  expect(element).toHaveProperty('key');
 });
 
 // test('should warn when `ref` is being accessed', () => {
@@ -95,7 +95,6 @@ test('allows a string to be passed as the type', () => {
   expect(element.key).toBe(null);
   expect(element.props).toEqual({});
 });
-
 
 test('returns an immutable element', () => {
   const element = ScheduleReact.createElement(ComponentClass);
@@ -249,8 +248,12 @@ test('identifies valid elements', () => {
     }
   }
 
-  expect(ScheduleReact.isValidElement(ScheduleReact.createElement('div'))).toEqual(true);
-  expect(ScheduleReact.isValidElement(ScheduleReact.createElement(Component))).toEqual(true);
+  expect(
+    ScheduleReact.isValidElement(ScheduleReact.createElement('div')),
+  ).toEqual(true);
+  expect(
+    ScheduleReact.isValidElement(ScheduleReact.createElement(Component)),
+  ).toEqual(true);
 
   expect(ScheduleReact.isValidElement(null)).toEqual(false);
   expect(ScheduleReact.isValidElement(true)).toEqual(false);
