@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "rollup -c",
     "test": "jest --coverage",
     "eslint": "eslint --ext .ts,.tsx,.js,.jsx src"
   },
@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/taichiyi/Schedule#readme",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.1.1",
     "@types/jest": "^26.0.20",
     "@types/react": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
@@ -42,6 +43,7 @@
     "jest": "^26.6.3",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
+    "rollup": "^2.38.4",
     "ts-jest": "^26.5.0",
     "typescript": "^4.1.3"
   },

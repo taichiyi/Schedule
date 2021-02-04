@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>ScheduleReact Demo</title>
+  <script src="../dist/schedule-react.umd.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script>
+    const { createElement } = ScheduleReact
+    const App = createElement(
+      'div',
+      {
+        className: "wrap",
+        onClick: () => {
+          console.log('click');
+        }
+      },
+      createElement(
+        'span',
+        null,
+        ':',
+      ),
+      createElement(
+        'button',
+        null,
+        'Come on, click me!'
+      )
+    )
+    console.log(
+      ScheduleReact
+    );
+    console.log(
+      App
+    );
+  </script>
+</body>
+
+</html>
