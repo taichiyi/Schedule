@@ -21,7 +21,7 @@ export const createElement = (type: any, config?: any, ...children: any) => {
   let props: any = {}
   if (config != null) {
     if (config.key !== undefined) {
-      key = config.key
+      key = ''+config.key
     }
     if (config.ref !== undefined) {
       ref = config.ref
@@ -45,3 +45,9 @@ export const createElement = (type: any, config?: any, ...children: any) => {
 
   return createReactElement(type, key, ref, props)
 }
+
+export const isValidElement=(object:any)=>(
+  typeof object==='object'&&
+  object!==null&&
+  object.$$typeof===SCHEDULEREACT_ELEMENT_TYPE
+)

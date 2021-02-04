@@ -30,6 +30,7 @@ ScheduleReact 假设使用者能正确使用不会产生错误。
 - ✅ React tree
 - ✅ Fiber
 - ✅ React API
+- ✅ TypeScript(Not Flow)
 - ✅ 事件系统
 - ❌ SSR
 - ❌ JSX

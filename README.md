@@ -30,6 +30,7 @@ ScheduleReact assumes that user can use it correctly and not cause errors.
 - ✅ React tree
 - ✅ Fiber
 - ✅ React API
+- ✅ TypeScript(Not Flow)
 - ✅ Event system
 - ❌ SSR
 - ❌ JSX
