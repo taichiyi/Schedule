@@ -1,0 +1,14 @@
+**/*.svg
+package.json
+dist/
+yarn.lock
+yarn-error.log
+*.sh
+*.snap
+.gitignore
+.npmignore
+.prettierignore
+.DS_Store
+.editorconfig
+.eslintignore
+**/*.yml
