@@ -1,6 +1,6 @@
 # ScheduleReact
 
-<a href="https://github.com/taichiyi/Schedule/actions"><img src="https://img.shields.io/github/workflow/status/taichiyi/Schedule/main.svg" alt="Build Status"></a>
+<a href="https://github.com/taichiyi/Schedule/actions"><img src="https://img.shields.io/github/workflow/status/taichiyi/Schedule/CI.svg" alt="Build Status"></a>
 
 ## ScheduleReact 是什么?
 
