@@ -1,5 +1,7 @@
 # ScheduleReact
 
+<a href="https://github.com/taichiyi/Schedule/actions"><img src="https://img.shields.io/github/workflow/status/taichiyi/Schedule/main.svg" alt="Build Status"></a>
+
 ## What is ScheduleReact?
 
 A mini React.
