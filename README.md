@@ -16,8 +16,6 @@ A declarative JavaScript library for building user interfaces.
 
 To learn React.
 
-ScheduleReact assumes that user can use it correctly and not cause errors.
-
 ## Stage
 
 1. Host component render to DOM
@@ -28,7 +26,6 @@ ScheduleReact assumes that user can use it correctly and not cause errors.
 
 ## Features
 
-- ✅ Support es6 and beyond
 - ✅ React tree
 - ✅ Fiber
 - ✅ React API
@@ -36,6 +33,11 @@ ScheduleReact assumes that user can use it correctly and not cause errors.
 - ✅ Event system
 - ❌ SSR
 - ❌ JSX
+
+## In order to ensure a clear and concise code, ScheduleReact makes the following choices
+
+- Only the 88+ version of chrome is guaranteed to run normally.
+- Assumes that user can use it correctly and not cause errors.
 
 ## TODO
 

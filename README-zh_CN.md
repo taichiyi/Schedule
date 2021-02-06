@@ -16,8 +16,6 @@
 
 为了学习 React。
 
-ScheduleReact 假设使用者能正确使用不会产生错误。
-
 ## 阶段
 
 1. 渲染 Host 组件到 DOM
@@ -28,7 +26,6 @@ ScheduleReact 假设使用者能正确使用不会产生错误。
 
 ## 特色
 
-- ✅ 支出 ES6 及以上
 - ✅ React tree
 - ✅ Fiber
 - ✅ React API
@@ -36,6 +33,11 @@ ScheduleReact 假设使用者能正确使用不会产生错误。
 - ✅ 事件系统
 - ❌ SSR
 - ❌ JSX
+
+## 为了保证逻辑清晰的简洁的代码, ScheduleReact 做如下选择
+
+- 只保证在 Chrome Version 88+ 正常运行。
+- 假设使用者能正确使用不会产生错误。
 
 ## TODO
 
