@@ -1,18 +1,18 @@
-# ScheduleReact
+# Sch
 
 <a href="https://github.com/taichiyi/Schedule/actions"><img src="https://img.shields.io/github/workflow/status/taichiyi/Schedule/CI.svg" alt="Build Status"></a>
 
-## What is ScheduleReact?
+## What is Sch?
 
-A mini React.
+A mini React-like.
 
 A declarative JavaScript library for building user interfaces.
 
-## Why is name ScheduleReact?
+## Why is name Sch?
 
 "There is an internal joke in the team that React should have been called “Schedule” because React does not want to be fully 'reactive'."
 
-## Why create ScheduleReact?
+## Why create Sch?
 
 To learn React.
 
@@ -26,7 +26,7 @@ To learn React.
 
 ## Features
 
-- ✅ React tree
+- ✅ React tree (Virtual DOM)
 - ✅ Fiber
 - ✅ React API
 - ✅ TypeScript(Not Flow)
@@ -34,10 +34,12 @@ To learn React.
 - ❌ SSR
 - ❌ JSX
 
-## In order to ensure a clear and concise code, ScheduleReact makes the following choices
+## In order to ensure a clear and concise code, Sch makes the following choices
 
 - Only the 88+ version of chrome is guaranteed to run normally.
 - Assumes that user can use it correctly and not cause errors.
+- There is only one Sch tree in an application.
+- LegacyRoot, BlockingRoot, concurrentRoot only support LegacyRoot.
 
 ## TODO
 

@@ -1,16 +1,16 @@
 import typescript from '@rollup/plugin-typescript';
 
 export default {
-  input: './src/schedule-react/ScheduleReact.ts',
+  input: './src/sch/Sch.ts',
   output: [
     {
-      file: 'dist/schedule-react.umd.js',
+      file: 'dist/sch.umd.js',
       format: 'umd',
-      name: 'ScheduleReact',
+      name: 'Sch',
       sourcemap: true
     },
     {
-      file: 'dist/schedule-react.js',
+      file: 'dist/sch.js',
       format: 'esm',
       sourcemap: true
     },

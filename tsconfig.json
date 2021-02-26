@@ -9,7 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": false,
     "jsx": "react",
-    "jsxFactory": "ScheduleReact.createElement",
+    "jsxFactory": "Sch.createElement",
   },
   "exclude": ["node_modules", "dist"],
   "include": ["src"]

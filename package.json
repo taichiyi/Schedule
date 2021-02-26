@@ -1,5 +1,5 @@
 {
-  "name": "schedule-react",
+  "name": "@taichi-ti/sch",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,8 +15,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   },
   "repository": {
