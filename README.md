@@ -2,44 +2,46 @@
 
 <a href="https://github.com/taichiyi/Schedule/actions"><img src="https://img.shields.io/github/workflow/status/taichiyi/Schedule/CI.svg" alt="Build Status"></a>
 
-## What is Sch?
+中文 | [English](./README-en_US.md)
 
-A mini React-like.
+## Sch 是什么?
 
-A declarative JavaScript library for building user interfaces.
+一个迷你的类 React。
 
-## Why is name Sch?
+一个声明式的 JavaScript UI 库。
 
-"There is an internal joke in the team that React should have been called “Schedule” because React does not want to be fully 'reactive'."
+## 为什么叫 Sch?
 
-## Why create Sch?
+“在我们团队内部有个笑话：React 应该叫做 ‘Schedule’，因为 React 不想成为完全‘响应的’”
 
-To learn React.
+## 为什么做 Sch?
 
-## Stage
+为了学习 React。
 
-1. Host component render to DOM
-2. Function component render to DOM
-3. Class component render to DOM
-4. Support the click event of the event system
-5. Support the setState function of the class component
+## 阶段
 
-## Features
+1. 渲染 Host 组件到 DOM
+2. 渲染函数组件到 DOM
+3. 渲染类组件到 DOM
+4. 支持事件系统的 click 事件
+5. 支持类组件的 setState 方法
+
+## 特色
 
 - ✅ React tree (Virtual DOM)
 - ✅ Fiber
 - ✅ React API
 - ✅ TypeScript(Not Flow)
-- ✅ Event system
+- ✅ 事件系统
 - ❌ SSR
 - ❌ JSX
 
-## In order to ensure a clear and concise code, Sch makes the following choices
+## 为了保证逻辑清晰的简洁的代码, Sch 做如下选择
 
-- Only the 88+ version of chrome is guaranteed to run normally.
-- Assumes that user can use it correctly and not cause errors.
-- There is only one Sch tree in an application.
-- LegacyRoot, BlockingRoot, concurrentRoot only support LegacyRoot.
+- 只保证在 Chrome Version 88+ 正常运行。
+- 假设使用者能正确使用不会产生错误。
+- 在一个应用中只有一棵 Sch 树。
+- LegacyRoot, BlockingRoot, concurrentRoot 只支持 LegacyRoot。
 
 ## TODO
 
