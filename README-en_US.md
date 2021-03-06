@@ -18,14 +18,6 @@ A declarative JavaScript library for building user interfaces.
 
 To learn React.
 
-## Stage
-
-1. Host component render to DOM
-2. Function component render to DOM
-3. Class component render to DOM
-4. Support the click event of the event system
-5. Support the setState function of the class component
-
 ## Features
 
 - ✅ React tree (Virtual DOM)
@@ -35,6 +27,7 @@ To learn React.
 - ✅ Event system
 - ❌ SSR
 - ❌ JSX
+- ❌ Legacy React Context
 
 ## In order to ensure a clear and concise code, Sch makes the following choices
 

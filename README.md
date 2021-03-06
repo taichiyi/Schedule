@@ -18,14 +18,6 @@
 
 为了学习 React。
 
-## 阶段
-
-1. 渲染 Host 组件到 DOM
-2. 渲染函数组件到 DOM
-3. 渲染类组件到 DOM
-4. 支持事件系统的 click 事件
-5. 支持类组件的 setState 方法
-
 ## 特色
 
 - ✅ React tree (Virtual DOM)
@@ -35,6 +27,7 @@
 - ✅ 事件系统
 - ❌ SSR
 - ❌ JSX
+- ❌ Legacy React Context
 
 ## 为了保证逻辑清晰的简洁的代码, Sch 做如下选择
 
